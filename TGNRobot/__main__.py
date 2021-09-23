@@ -74,30 +74,31 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴏɪ, ɪ ᴍ ᴛɢɴ ʀᴏʙᴏᴛ
+Hello,
+ɪ am Gabbar
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! ʜɪᴛ` /help
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ @The\_Godfather\_Network [❤](https://telegra.ph/file/655ab2c4cbbe99d503864.jpg)
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ @RMCMG [❤](https://telegra.ph/file/317d6d9511f780a12c471.png)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴛɢɴ ʀᴏʙᴏᴛ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/TGN_Ro_bot?startgroup=true"),
+            text="➕ᴀᴅᴅ Gabbar ᴛᴏ ᴜʀ ᴄʜᴀᴛ➕", url="t.me/Gabbar_Robot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ", url=f"https://github.com/Itsunknown-12/TGN-Robot"),
+        InlineKeyboardButton(text="🛡️Creator🛡️", url=f"https://t.me/mkspali"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="📛ꜱᴜᴘᴘᴏʀᴛ📛", url=f"https://t.me/RMCMG"
         ),
     ],
     [
-        InlineKeyboardButton(text="ᴅᴇᴠꜱ", url=f"https://t.me/TGN_DEV"),
+        InlineKeyboardButton(text="🛡️ᴅᴇᴠꜱ🛡️", url=f"https://t.me/mkspali"),
         InlineKeyboardButton(
-            text="ᴛɢɴ ᴄʜᴀᴛ", url=f"https://t.me/greatpersonxd"
+            text="💹Gabbar ᴄʜᴀᴛ💹", url=f"https://t.me/RMCMG_Bots_Discussion"
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
+        InlineKeyboardButton(text="🚪ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ🚪", callback_data="help_back"),
     ],
 ]
 
@@ -105,13 +106,13 @@ buttons = [
 HELP_STRINGS = """
 `ʜᴏɪ, ɪ ᴍ` ᴛɢɴ ʀᴏʙᴏᴛ
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴄᴍᴅꜱ ᴀɴᴅ ᴍᴏᴅᴜʟᴇꜱ...`
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- **@The\_Godfather\_Network** [❤️](https://telegra.ph/file/fde36758414c15fb21436.jpg)"""
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- **@RMCMG** [❤️](https://telegra.ph/file/317d6d9511f780a12c471.png)"""
 
-layla_IMG = "https://telegra.ph/file/cc83751e23d42cd9e1883.jpg"
+layla_IMG = "https://telegra.ph/file/317d6d9511f780a12c471.png"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project [Akki](t.me/godfatherakki) \
- Supporting isnt always financial! [ᴛɢɴ ɴᴇᴛᴡᴏʀᴋ](https://t.me/The_Godfather_Network) \
+ You can support the project [Mukesh Solanki](t.me/mkspali) \
+ Supporting isnt always financial! [RMCMG ɴᴇᴛᴡᴏʀᴋ](https://t.me/RMCMG_Bots_Discussion) \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
 IMPORTED = {}
@@ -357,18 +358,18 @@ def layla_about_callback(update, context):
     query = update.callback_query
     if query.data == "layla_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *TGN Robot*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Gabbar*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
                  \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_TGN's licensed under the GNU General Public License v3.0_
-                 \n❍ TGN  @The_Godfather_Network
-                 \n❍ Support Group @Godfathersupport
-                 \n❍ Assistant @TGN_Assistant.
-                 \nHere is the [💾Repository](https://github.com/Itsunknown-12/TGN-Robot).
+                 \n\n_Gabbar's licensed under the GNU General Public License v3.0_
+                 \n❍ Gabbar  @RMCMG
+                 \n❍ Support Group @RMCMG_Bots_Discussion
+                 \n❍ Assistant @mkspali.
+                 \nHere is the [Owner](https://t.me/mkspali).
                  \n\nIf you have any question about bot, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -395,8 +396,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *TGNRobot*
-                 \nHere is the [Source Code](https://github.com/Itsunknown-12/TGN-Robot) .""",
+            text=""" Hi..🤗 I am *Gabbar*
+                 \nHere is the [🛡️Owner🛡️](https://t.me/mkspali) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -643,7 +644,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID != 412094015 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
