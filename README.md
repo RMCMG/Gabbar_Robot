@@ -2,12 +2,6 @@
 
 ## <a href="https://github.com/RMCMG/Gabbar_Robot"><img src="https://img.shields.io/badge/Gabbar%20Robot-gold?&style=flat-square?&logo=github" width=600px></a></p>
  
-<p align="center">
-    🅡🅔🅟🅞 🅢🅣🅐🅣🅢
-</p>
-
-##
-
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=RMCMG&repo=Gabbar_Robot&theme=dark)
 
 ##
