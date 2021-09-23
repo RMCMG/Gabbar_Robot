@@ -8,6 +8,7 @@
 
 ##
 
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=RMCMG&repo=Gabbar_Robot&theme=dark)
 
 ##
 
