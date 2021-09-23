@@ -116,7 +116,7 @@ async def hmm(client, message):
         test = msg
         test = test.replace("layla", "Aco")
         test = test.replace("layla", "Aco")
-        URL = "https://api.affiliateplus.xyz/api/chatbot?message=hi&botname=@TGNRobot&ownername=@Timesisnotwaiting"
+        URL = "https://api.affiliateplus.xyz/api/chatbot?message=hi&botname=@Gabbar_Robot&ownername=@RMCMG_Bots"
 
         try:
             r = requests.request("GET", url=URL)
@@ -176,10 +176,10 @@ async def hmm(client, message):
                 return
         # test = emoji.demojize(test.strip())
 
-        # Kang with the credits bitches @InukaASiTH
+        # Kang with the credits bitches @RMCMG_Bots
         test = test.replace("layla", "Aco")
         test = test.replace("layla", "Aco")
-        URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@TGN_Robot&ownername=@Timesistwaiting"
+        URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@Gabbar_Robot&ownername=@RMCMG_Bots"
         try:
             r = requests.request("GET", url=URL)
         except:
@@ -250,10 +250,10 @@ async def inuka(client, message):
 
     # test = emoji.demojize(test.strip())
 
-    # Kang with the credits bitches @InukaASiTH
+    # Kang with the credits bitches @RMCMG_Bots
     test = test.replace("tgn", "Aco")
     test = test.replace("tgn", "Aco")
-    URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@TGN_Robot&ownername=@Timesisnotwaitng"
+    URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@Gabbar_Robot&ownername=@mkspali"
     try:
         r = requests.request("GET", url=URL)
     except:
@@ -328,10 +328,10 @@ async def inuka(client, message):
 
     # test = emoji.demojize(test.strip())
 
-    # Kang with the credits bitches @InukaASiTH
+    # Kang with the credits bitches @RMCMG_Bots
     test = test.replace("layla", "Aco")
     test = test.replace("layla", "Aco")
-    URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@TGN_X_Robot&ownername=@Timesisnotwaiting"
+    URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@Gabbar_Robot&ownername=@RMCMG_Bots"
     try:
         r = requests.request("GET", url=URL)
     except:
@@ -362,4 +362,4 @@ layla AI 3.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
  
 """
 
-__mod_name__ = "Chatbot"
+__mod_name__ = "🛡️Chatbot🛡️"
