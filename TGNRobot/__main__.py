@@ -76,7 +76,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 ʜᴏɪ, ɪ ᴍ ᴛɢɴ ʀᴏʙᴏᴛ
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! ʜɪᴛ` /help
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ @The\_Godfather\_Network [❤](https://telegra.ph/file/317d6d9511f780a12c471.png)
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ @The\_Godfather\_Network [❤](https://telegra.ph/file/655ab2c4cbbe99d503864.jpg)
 """
 
 buttons = [
@@ -105,9 +105,9 @@ buttons = [
 HELP_STRINGS = """
 `ʜᴏɪ, ɪ ᴍ` ᴛɢɴ ʀᴏʙᴏᴛ
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴄᴍᴅꜱ ᴀɴᴅ ᴍᴏᴅᴜʟᴇꜱ...`
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- **@The\_Godfather\_Network** [❤️](https://telegra.ph/file/317d6d9511f780a12c471.png)"""
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ :- **@The\_Godfather\_Network** [❤️](https://telegra.ph/file/fde36758414c15fb21436.jpg)"""
 
-layla_IMG = "https://telegra.ph/file/317d6d9511f780a12c471.png"
+layla_IMG = "https://telegra.ph/file/cc83751e23d42cd9e1883.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project [Akki](t.me/godfatherakki) \
