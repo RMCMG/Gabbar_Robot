@@ -1,7 +1,7 @@
 {
-      "name": "Gabbar_Robot",
+      "name": "╚»𝗧-𝗚-𝗡«╝ Robot",
       "description": "Telegram group management bot.",
-      "logo": "https://telegra.ph/file/317d6d9511f780a12c471.png",
+      "logo": "https://telegra.ph/file/19798419a95cd778001c9.jpg",
       "keywords": [
          "telegram",
          "anime",
@@ -9,7 +9,7 @@
          "manager",
          "TGN"
       ],   
-   "repository": "https://github.com/RMCMG/Gabbar_Robot.git",
+   "repository": "https://github.com/Itsunknown-12/TGN-Robot.git",
    "addons": [
       {
          "options": {
@@ -50,7 +50,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "412094015"
+         "value": "1669178360"
       },
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
@@ -67,7 +67,7 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "mkspali"
+         "value": "Timesisnotwaiting"
       },
       "DATABASE_URL": {
          "description": "Database Url",
@@ -76,7 +76,7 @@
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "RMCMG_Bots_Discussion"
+         "value": "GodfatherSupport"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
@@ -94,12 +94,12 @@
      "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-1001594744091"
+         "value": "-123456798"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-1001594744091"
+         "value": "-123456798"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
@@ -119,7 +119,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "412094015"
+         "value": "1669178360"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -133,22 +133,22 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "412094015"
+         "value": ""
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "412094015"
+         "value": ""
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
-         "value": "412094015"
+         "value": ""
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "412094015"
+         "value": ""
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
@@ -186,7 +186,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://t.me/mkspali"
+         "value": "https://t.me/GodfatherSupport"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
