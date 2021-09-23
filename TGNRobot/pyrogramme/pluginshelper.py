@@ -300,7 +300,7 @@ def admins_only(func: Callable) -> Coroutine:
     return wrapper
 
 
-# @RMCMG_Bots
+# @Mr_Dark_Prince
 def capture_err(func):
     @wraps(func)
     async def capture(client, message, *args, **kwargs):
@@ -328,7 +328,7 @@ def capture_err(func):
     return capture
 
 
-# Special credits to @RMCMG_Bots
+# Special credits to TheHamkerCat
 
 
 async def member_permissions(chat_id, user_id):
