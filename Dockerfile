@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/TGNRobot
-RUN git clone -b shiken https://github.com/Itsunknown-12/TGN-Robot /root/TGNRobot
+RUN git clone -b shiken https://github.com/RMCMG/Gabbar_Robot /root/TGNRobot
 WORKDIR /root/TGNRobot
 
 #Copy config file to /root/TGNRobot/TGNRobot
